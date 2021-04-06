@@ -18,10 +18,10 @@ from connect2hive import Hive
 
 def main():
     
-    host  = 'test.direction.com'    % String containing the URL hosting your datanase (use "localhost" for databases running in your own system)
-    port  = 10000                   % Integer containing the port in which your database is running
-    db    = 'db_test'               % String containing your database name
-    table = 'tb_test'               % String containing your table name
+    host  = 'test.direction.com'    # String containing the URL hosting your datanase (use "localhost" for databases running in your own system)
+    port  = 10000                   # Integer containing the port in which your database is running
+    db    = 'db_test'               #  String containing your database name
+    table = 'tb_test'               # String containing your table name
 
     # Define your SQL query
 
